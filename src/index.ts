@@ -4,7 +4,8 @@ import {renderUserBlock} from './user.js'
 import {renderToast} from './lib.js'
 
 window.addEventListener('DOMContentLoaded', () => {
-  renderUserBlock('0')
+  console.log(123)
+  renderUserBlock('Wade Warren', '/img/avatar.png', 1 )
   renderSearchFormBlock()
   renderSearchStubBlock()
   renderToast(
